@@ -1,0 +1,60 @@
+/* SECCION NOSOTROS Y SECCION ENVIOS */
+.section__envios {
+    min-height: 42vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+ .article__envios {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    }
+    .article__tarjeta {
+        max-width: 83rem;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        border: 6px outset #65414b;
+        background-image: url(../imagenes/madera-blanca.jpg);
+        background-size: cover;
+    }
+
+    .div__tarjeta {
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    .div__img__card1 {
+        width: 20em;
+        height: 20em;
+        text-align: center;
+    }
+
+    .card-body {
+        padding: 0;
+    }
+
+    .h2__envios {
+        margin-top: 15px;
+        font-size: $text-md;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .article__p {
+        padding: 10px;
+        text-align: justify;
+         line-height: 1.6em;
+         font-size: $text-md;
+         font-weight: bold;
+    }
+
+    .card-text {
+        text-align: center;
+    }
+    
+    .text-muted {
+        background-color: $accent;
+        font-size: $text-sm;
+    }    
+}

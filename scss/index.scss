@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+
+/* NORMALIZE */
+@import './variables/_variables';
+@import './variables/_noramalize';
+
+/* PAGINAS */
+@import './pages/_index';
+@import './pages/_showroom';
+@import './pages/_nosotros';
+@import './pages/_envios';
+@import './pages/_contacto';
+
+
+/* PARTIALS */
+@import './partials/_header';
+@import './partials/_footer';
+@import './partials/_meadia_querys';
+
+

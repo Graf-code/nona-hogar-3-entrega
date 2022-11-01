@@ -1,0 +1,293 @@
+/* SECCION PRINCIPAL DEL DOCUMENTO INDEX */
+.main {
+    height: 84vh;
+}
+
+.article__inicio {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.article__tarjeta {
+    max-width: 83rem;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border: 6px outset $primary;
+    background-image: url(../imagenes/madera-blanca.jpg);
+    background-size: cover;
+    border-radius: 2em;
+}
+
+ .div__tarjeta {
+    margin-top: 10px;
+    padding: 10px;
+} 
+
+.div__img__card {
+    border-radius: 100em;
+ }
+
+ 
+.text-muted {
+    background-color: $accent;
+    font-size: $text-sm;
+}
+
+ .card-body {
+    padding: 0;
+}
+ 
+
+ .card-text {
+    text-align: center;
+}
+
+.article__p {
+    padding: 10px;
+    text-align: center;
+    line-height: 1.6em;
+    font-size: $text-md;
+    font-weight: bold;
+    border: solid 2px;
+    background-color: #00000082;
+    border-radius: 2em;
+    color: $other;
+}
+
+/* COMIENZO DE LAS MEDIA QUERY, EN LAS CUALES SE ESPECIFICA SOLAMENTE EN TRES PUNTOS DE QUIEBRE (BREAKPOINTS) */
+@media screen and (max-width: 991.98px) {
+    .header__text{
+        height: 34px;
+        width: 27em;
+        padding: 1px;
+        margin: 2px;
+    }
+
+    /*.parrafo1 {
+        text-align: center;
+        margin: 20px;
+        padding: 5px;
+    }*/
+
+    .footer__redes {
+        padding-top: 10px;
+    }
+
+    .nav-link {
+        font-size: $text-sm;
+    }
+
+    .h2__nosotros {
+        text-align: center;
+        padding-top: 5px;
+        padding: 3px;
+        color: $accent;
+        font-size: $text-md;
+        font-weight: 300;
+    }
+    .article__p {
+        text-align: center;
+        margin: 16px;
+        color: $other;
+        font-size: $text-sm;
+        font-weight: 700;
+    }
+
+    .titulo {
+        font-size: $text-md;
+        margin-top: 10px;
+    }
+    
+    .div__tarjeta {
+        margin-top: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .text-muted {
+        background-color: $accent;
+        font-size: $text-sm;
+    }
+
+    .card-text {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .header__text{
+        height: 30px;
+        width: 27em;
+        padding-top: 4px;
+        margin: 4px;
+    }
+
+    /*.parrafo1 {
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+    }*/
+
+    .footer__redes {
+        display: none;
+    }
+
+    .nav-link {
+        font-size: $text-sm;
+    }
+
+    .h2__nosotros {
+        text-align: center;
+        padding-top: 5px;
+        padding: 3px;
+        color: $accent;
+        font-size: $text-md;
+
+    }
+    
+    .titulo {
+        text-align: center;
+        color: $secondary;
+        font-size: $text-md;
+    }
+
+    .article__p {
+        text-align: center;
+        color: $other;
+        font-size: $text-sm;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .div__tarjeta {
+        margin-top: 10px;
+        padding: 10px;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .div__img__card1 {
+        width: 10em;
+        height: 10em;
+    }
+
+    .text-muted {
+        background-color: $accent;
+        font-size: $text-sm;
+    }
+
+    .card-text {
+        text-align: center;
+    }
+
+    .article__tarjeta {
+        margin: 1rem;
+    }
+
+    .section__n {
+        height: 42rem;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .header__text{
+        height: 30px;
+        width: 230px;
+        padding-top: 2px;
+        padding: 4px;
+        margin: 4px;
+    }
+
+    /*.parrafo1 {
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        font-size: $text-sm;
+    }*/
+
+    .footer__redes {
+        display: none;
+    }
+
+    .nav-link {
+        font-size: $text-sm;
+    }
+
+    .h2__nosotros {
+        text-align: center;
+        padding-top: 5px;
+        padding: 3px;
+        color: $accent;
+        font-size: $text-md;
+        font-weight: 300;
+    }
+
+    .article__p {
+        text-align: center;
+        color: $other;
+        font-size: $text-sl;
+        font-weight: 700;
+    }
+
+    .titulo {
+        font-size: $text-md;
+        margin-top: 10px;
+    }
+
+    .article__tarjeta {
+        margin: 1em;
+        margin-top: 10rem;
+    }
+
+    .div__tarjeta {
+        text-align: center;
+        padding: 0;
+    }
+
+    .div__img__card {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .div__img__card1 {
+        width: 10em;
+        height: 10em;
+    }
+
+    .text-muted {
+        background-color: $accent;
+        font-size: $text-sm;
+    }
+
+    .card-body {
+        padding: 0;
+    }
+
+    /*.card-text {
+        text-align: center;
+    }*/
+
+    .article__n {
+        display: flex;
+        justify-content: center;   
+    }
+
+    .section__n {
+        margin-top: 5rem;
+    }
+
+    .section__form {
+        height: 70rem;
+    }
+    
+    .form__i {
+        width: 27rem;
+    }
+
+    .form__ta {
+        width: 27rem;
+    }
+}

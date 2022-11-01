@@ -1,0 +1,30 @@
+/* SECCION FOOTER */
+footer {
+    height: 6vh;
+    background-color: $primary;
+    width: 100%;
+    color: $secondary;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+ 
+    .footer__redes {
+    padding-top: 10px;
+
+    .div__logo{
+        padding-top: 5px;
+        color: $secondary;
+    }
+ }
+    .logo__redes {
+        background-color: $secondary;
+        border-radius: 5em;
+    }   
+
+    .d-flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}

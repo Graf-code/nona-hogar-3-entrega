@@ -1,0 +1,36 @@
+/* RESET DE CSS PARA EL BODY */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+/* ESTILOS PARA EL BODY */
+/* APLICACION DE ESTILOS PARA EL HTML --CON 62.5%, LOS PIXELES PASAN DE VALER 16PX, A VALER 10PX-- */
+html {
+    font-size: 62.5%;
+
+    body {
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-image: url(../imagenes/fondo.jpg);
+        background-attachment: fixed;
+    
+        body {
+            font-family: 'Mulish', sans-serif;
+        }
+
+        
+    /* PARA QUITAR LOS PUNTOS QUE VIENEN POR DEFECTO EN LAS LISTAS (li) */
+    ul {
+        list-style-type: none;
+    }
+       
+    } 
+}
+
+
+
+

@@ -1,0 +1,82 @@
+/* SECCION FORMULARIO */
+ .titulo {
+    text-align: center;
+    color: $secondary;
+    margin-top: 10px;
+
+    .h2__titulo {
+        font-size: $text-md;
+    }
+}
+
+.article__form {
+        display: flex;
+        height: 80vh;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        margin-top: 26px;
+        border: 2px solid $primary;
+        border-radius: 10px;
+        height: 53rem;
+
+        .form__f {
+            display: flex;
+            height: 450px;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 16px;
+            height: 52rem;
+        }
+
+        .form__l {
+            color: $secondary;
+            font-size: $text-md;
+            text-align: center;
+            }
+
+        .form__la {
+            color: $secondary;
+            font-size: $text-md;
+        }
+
+        .form__i {
+            border-bottom: 2px;
+            width: 100%;
+            height: 36px;
+            border: 2px solid $primary;
+            border-radius: 5px;
+            font-size: $text-sm;
+            padding: 1rem;
+        }
+
+        .form__ta {
+            margin-top: 10px;
+            border: 2px solid $primary;
+            border-radius: 5px;
+            font-size: $text-sm;
+            padding: 1rem;
+            height: 15rem;
+        }
+
+        .form__be {
+            background-color: $primary;
+            height: 30px;
+            border-radius: 5px;
+            border: 2px solid $primary;
+            font-size: $text-s;
+            color: $secondary;
+            font-weight: bold;
+
+        &:hover {
+            background-color: $secondary;
+            color: $accent;
+        } 
+    }     
+}
